@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+
+
+ 
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+ html, body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+ }
+
+ .container{
+    border: 2px solid black;
+    height: 55vh;
+    width: 55vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid teal;
+   filter: drop-shadow(1px 1px 20px teal);
+   box-shadow: 1px 1px 10px teal
+ }
+
+ input{
+    padding-left: 1vh;
+    font-size: 2vh;
+    background-color:  rgba(0, 0, 0, 0.7);
+    border: 1px solid teal;
+   }
+
+   h1{
+    color: white;
+ }
+
+ label{
+   color: black;
+   font-weight: bolder;
+   color: white;
+ }
+
+ .email{
+    height: 4vh;
+    width: 35vh;
+    margin-top: 7vh;
+ }
+
+ .password{
+    height: 4vh;
+    width: 35vh;
+    margin-top: 3vh;
+    margin-right: 3.5vh;
+ }
+
+ .login{
+    height: 5vh;
+    width: 10vh;
+    margin-top: 6vh;
+    margin-left: 40%;
+    border-radius: 10vh;
+    border: .3vh solid teal;
+ }
+
+ p{
+    margin-top: 7vh;
+    color: white;
+ }
+p a{
+   color: orangered;
+}
+ video{
+    width: 45vh;
+    position: absolute;
+    z-index: -3;
+    opacity: 60%;
+    margin-bottom: 42%;
+ }
